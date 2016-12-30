@@ -1,15 +1,15 @@
 // Contructor pattern ECMAScript 5 
 
 
-Movie = function (title, release_year){
+Movie = function (title, releaseYear){
     this.title = title;
-    this.release_year = release_year;
+    this.releaseYear = releaseYear;
 }
 
 // Use prototype to avoid multiple creation of the same 'class' function
 
 Movie.prototype.details = function(){
-    return this.title + ' realeased in year ' + this.release_year;
+    return this.title + ' realeased in year ' + this.releaseYear;
 }
 
 movie = new Movie('Bastille Day', 2016);
