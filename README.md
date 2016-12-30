@@ -1,2 +1,2 @@
 # learn-algorithms
-Repo for code I write when studying algorithms 
+Repo for code I write when studying 
